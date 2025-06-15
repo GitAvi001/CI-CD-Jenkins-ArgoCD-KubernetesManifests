@@ -19,7 +19,7 @@ spec:
         app: flaskapp-argocd-deployment
     spec:
       containers:
-      - image: avindudocker1/gitops-jenkins-build:13
+      - image: avindudocker1/gitops-jenkins-build:11
         name: flaskapp-argocd-deployment
         resources: {}
 status: {}
