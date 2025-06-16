@@ -8,7 +8,7 @@ Trigger Job to Push the Latest Docker Image: The code push triggers a Jenkins jo
 4. Look in the Repository for Kubernetes Manifests Changes: ArgoCD continuously monitors the GitHub Kubernetes manifests repository for changes to deployment.yaml.
 Sync the Latest Changes with the Kubernetes Cluster: ArgoCD synchronizes the Kubernetes cluster by applying the updated deployment.yaml, ensuring the cluster matches the desired state with the latest Docker image.
 
-//paste diagram
+![Jenkins-ArgoCD-deployment drawio](https://github.com/user-attachments/assets/300abb16-6bf9-46ff-8261-c8a0d0900657)
 
 # Jenkins setup
 
