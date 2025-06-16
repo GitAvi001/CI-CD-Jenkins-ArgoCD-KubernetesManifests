@@ -41,9 +41,9 @@ Sync the Latest Changes with the Kubernetes Cluster: ArgoCD synchronizes the Kub
 # ArgoCD setup
 1. install ArgoCD using installation link
 2. Check pods and deployments working without any issue.
-3. 
+3. Port forward the traffic to ArgoCD server running service to local machine 80 port
 ```bash
-kubectl port-forward -n <namespace> svc/<ArgoCD_server_service> 8080:80
+kubectl port-forward -n namespace svc/<ArgoCD_server_service> 8080:80
 ```
 Note: These port numbers are default ports, these port numbers can changed to any desired port number
 
