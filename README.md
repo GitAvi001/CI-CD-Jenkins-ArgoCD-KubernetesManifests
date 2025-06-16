@@ -52,7 +52,7 @@ Note: These port numbers are default ports, these port numbers can changed to an
 6. Name the application(Jenkins-GitOps-app)
 7. Select project as 'default'
 8. Select sync policy as 'Automatic'
-9. Select cluster URL as 'http://kubernetes.default.svc
+9. Select cluster URL as 'http://kubernetes.default.svc'
 10. Select <namespace> (namespace should match to the ArgoCD pods running namespace)
 11. Change the image version in the deployment.yaml and push to the Github repository
 
